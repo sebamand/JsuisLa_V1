@@ -1,5 +1,6 @@
 package com.example.jsuisla_v1.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,8 +14,11 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.jsuisla_v1.R;
+import com.example.jsuisla_v1.configure_message_activity;
 
-public class HomeFragment extends Fragment {
+import java.io.Serializable;
+
+public class HomeFragment extends Fragment implements Serializable {
 
     private HomeViewModel homeViewModel;
 
@@ -30,6 +34,9 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
+        //key 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
+
+        Intent I = new Intent(this, configure_message_activity.class);
         return root;
     }
 }
