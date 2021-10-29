@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button b = findViewById(R.id.ButtonValidText);
 
-        b.setOnClickListener();
+        //b.setOnClickListener();
 
     }
 

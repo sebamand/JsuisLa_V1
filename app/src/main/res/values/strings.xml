@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">JsuisLa_V1</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="app_name">JsuisLa</string>
+    <string name="title_home">JSuisLa</string>
+    <string name="title_config_message">Config Message</string>
     <string name="title_notifications">Notifications</string>
 </resources>
