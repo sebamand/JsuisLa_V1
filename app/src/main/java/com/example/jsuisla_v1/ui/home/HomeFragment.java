@@ -35,7 +35,7 @@ public class HomeFragment extends Fragment implements Serializable {
             }
         });
         //key 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
-        
+
         return root;
     }
 }
