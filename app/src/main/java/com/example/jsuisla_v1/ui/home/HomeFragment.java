@@ -36,7 +36,7 @@ public class HomeFragment extends Fragment implements Serializable {
         });
         //key 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
 
-        Intent I = new Intent(this, configure_message_activity.class);
+        //Intent I = new Intent(this, configure_message_activity.class);
         return root;
     }
 }
