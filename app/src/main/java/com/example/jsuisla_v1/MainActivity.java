@@ -1,6 +1,7 @@
 package com.example.jsuisla_v1;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -26,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
+        Button b = findViewById(R.id.ButtonValidText);
 
+        b.setOnClickListener();
 
     }
 

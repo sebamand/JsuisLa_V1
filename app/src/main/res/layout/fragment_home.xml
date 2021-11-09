@@ -41,6 +41,7 @@
         app:layout_constraintVertical_bias="0.566" />
 
     <Button
+        android:id="@+id/ButtonValidText"
         android:layout_width="188dp"
         android:layout_height="61dp"
         android:layout_marginTop="92dp"
